@@ -12,8 +12,13 @@
     - 검색 엔진 최적화에 용이하다. (crawling)
 
 ## Process
-### Init
+### Project 생성
 - <code> npx create-next@latest {dir_name} </code>
 - <code> cd {dir_name} </code>
 - <code> npm run dev </code>
-  - <code>package.json</code>의 <code>scripts.dev</code> 가 실행됨.
+    - <code>package.json</code>의 <code>scripts.dev</code> 가 실행됨.
+### Tailwind CSS
+- 설치
+    - <code> npm install -D tailwindcss postcss autoprefixer </code>
+    - <code> npx tailwindcss init -p </code>
+
