@@ -1,11 +1,12 @@
+import Layout from '../../componnets/layout'
 export default function Home() {
     return (
-        <div>
+        <Layout>
             <h1>
-                
+
                 Name: Jun
                 
             </h1>
-        </div>
+        </Layout>
     )
 }
