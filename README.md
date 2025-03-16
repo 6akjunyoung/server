@@ -1,6 +1,10 @@
 # server
 ## Reference
 - [Next.js 나만의 포트폴리오 사이트 만들기](https://www.youtube.com/watch?v=KvoFvmu5eRo)
+- [TailBlocks](https://tailblocks.cc)
+- [Dummy 글귀](http://guny.kr/stuff/klorem/)
+- [LottieFiles](https://lottiefiles.com)
+- [Lottie player](https://github.com/mifi/react-lottie-player)
 
 ## Background
 ### SSR vs. CSR
@@ -21,4 +25,5 @@
 - 설치
     - <code> npm install -D tailwindcss postcss autoprefixer </code>
     - <code> npx tailwindcss init -p </code>
+
 

@@ -9,6 +9,12 @@ export default function NotFound() {
       >
         홈으로 돌아가기
       </a>
+      <a
+        href="/aboutMe"
+        className="mt-6 text-blue-500 hover:underline text-xl"
+      >
+        AboutMe로 돌아가기
+      </a>
     </div>
   );
 }
