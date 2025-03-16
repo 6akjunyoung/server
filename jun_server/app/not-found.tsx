@@ -1,12 +1,14 @@
 export default function NotFound() {
-    return (
-      <div style={{ textAlign: "center", marginTop: "50px" }}>
-        <h1>페이지를 찾을 수 없습니다 😢</h1>
-        <p>존재하지 않는 페이지에 접근하셨습니다.</p>
-        <a href="/" style={{ color: "blue", textDecoration: "underline" }}>
-          홈으로 돌아가기
-        </a>
-      </div>
-    );
-  }
-  
+  return (
+    <div className="flex flex-col items-center justify-center h-screen bg-white text-gray-800">
+      <h1 className="text-5xl font-bold text-red-500">404 😢</h1>
+      <p className="mt-4 text-lg">페이지를 찾을 수 없습니다.</p>
+      <a
+        href="/"
+        className="mt-6 text-blue-500 hover:underline text-xl"
+      >
+        홈으로 돌아가기
+      </a>
+    </div>
+  );
+}
